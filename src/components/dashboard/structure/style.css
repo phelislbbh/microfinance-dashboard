@@ -1,0 +1,243 @@
+.loader-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+	height: 100vh;
+	background: rgba(104, 52, 103, 0.05);
+}
+
+.loader {
+	display: flex;
+	flex-direction: column;
+}
+
+.loader > span {
+	margin-top: 0.5rem;
+}
+
+.ant-layout-sider {
+	-moz-box-shadow: 0 0 5px #999;
+	-webkit-box-shadow: 0 0 5px #999;
+	box-shadow: 0 0 5px #999;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10001;
+}
+
+.ant-layout-header {
+	-moz-box-shadow: 0 0 5px #999;
+	-webkit-box-shadow: 0 0 5px #999;
+	box-shadow: 0 0 5px #999;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 60px;
+	z-index: 1000;
+}
+
+.trigger {
+	font-size: 18px;
+	padding: 21px 22px;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.trigger:hover {
+	background-color: #efefef;
+}
+
+.logo {
+	height: 64px;
+	padding: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow-x: hidden;
+	margin-bottom: 1rem;
+}
+
+.logo a {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.logo img.logo-icon {
+	max-height: 32px;
+}
+
+.logo img.logo-words {
+	max-height: 16px;
+	margin-left: 0.5rem;
+}
+
+.ant-layout-sider-collapsed .logo img.logo-words {
+	display: none;
+}
+
+.ant-breadcrumb-link,
+.ant-layout-footer {
+	font-size: 12px;
+}
+
+.ant-layout-sider {
+	min-height: 100vh;
+	overflow-x: hidden;
+}
+
+.ant-layout-sider-children .ant-menu-root,
+.ant-menu-dark .ant-menu-sub {
+	border-radius: 0;
+}
+
+.ant-layout-content {
+	border-radius: 4px;
+	position: relative;
+	margin: 0 16px;
+	padding: 12px 24px;
+	background: #fff;
+	border: 1px solid #ddd;
+	min-height: 75vh;
+}
+
+.table-header {
+	margin-bottom: 1rem;
+}
+
+.table-header .ant-form-item {
+	margin: -0.25rem 0 0 0;
+}
+
+.truncate {
+	width: '100%';
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.align-right {
+	display: block;
+	text-align: right;
+}
+
+.ant-table-filter-dropdown .ant-dropdown-menu-without-submenu {
+	max-height: 250px !important;
+}
+
+.main-tabs.ant-tabs-bar {
+	border-bottom: 1px solid #f6f6f6 !important;
+}
+
+.main-tabs > .ant-tabs-content {
+	padding-top: 1rem;
+}
+
+.records-actions-container {
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.records-actions-container .ant-form-item {
+	margin-left: 0.75rem;
+}
+
+.records-actions-container .ant-input {
+	width: 60%;
+	height: 2rem;
+}
+
+.records-actions-container .ant-input:focus {
+	width: 100%;
+}
+
+.records-filter-container,
+.reports-filter-container {
+	display: flex;
+	flex: 1;
+	justify-content: flex-end;
+	align-items: center;
+	flex-direction: row;
+}
+
+.records-filter-container .ant-calendar-picker,
+.reports-filter-container .ant-calendar-picker {
+	margin: 0 0.75rem;
+	max-width: 13rem;
+}
+
+.records-filter-container .ant-select,
+.reports-filter-container .ant-select {
+	margin-left: 0.75rem;
+}
+
+.records-filter-container .download-icon,
+.reports-filter-container .download-icon {
+	color: red !important;
+	font-size: 1.25rem;
+}
+
+.records-filter-button,
+.reports-filter-button {
+	padding: 0rem !important;
+}
+
+.doughnut-container {
+	border-top: 1px solid #e8e8e8;
+	margin-top: 43px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.table-summary-container {
+	background: #f6f6f6;
+	margin-bottom: 2rem;
+	padding: 1rem;
+	border-radius: 4px;
+	border: 1px solid #eee;
+}
+
+.table-summary-container .ant-card {
+	border-radius: 4px;
+	border: 1px solid #efefef;
+}
+
+.table-summary-container .ant-card .ant-card-head {
+	padding: 0 1rem;
+	border-bottom-color: #efefef;
+	line-height: 1rem;
+	height: 2rem !important;
+}
+
+.table-summary-container .ant-card .ant-card-head-title {
+	padding: 1rem 0;
+	font-size: 0.85rem;
+}
+
+.table-summary-container .ant-card .ant-card-body {
+	padding: 1rem;
+	font-size: 1.05rem;
+}
+
+.disbursements-payments-doughnut {
+	margin-top: 60px;
+}
+
+.switch-container {
+	margin: 1rem 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	width: 100%;
+}
+
+.switch-container-label {
+	margin-left: 0.5rem;
+}
