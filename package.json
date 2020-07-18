@@ -10,7 +10,7 @@
 		"axios": "^0.18.0",
 		"babel-plugin-import": "^1.8.0",
 		"bizcharts": "^3.2.2",
-		"lodash": "^4.17.10",
+		"lodash": "^4.17.19",
 		"moment": "^2.22.2",
 		"moment-range": "^4.0.1",
 		"prop-types": "^15.6.2",
